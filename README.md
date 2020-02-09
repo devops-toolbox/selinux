@@ -8,10 +8,10 @@ selinux: Selinux
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.selinux](https://galaxy.ansible.com/devops-toolbox.selinux)
+[https://galaxy.ansible.com/devopstoolbox.selinux](https://galaxy.ansible.com/devopstoolbox.selinux)
 
 ```bash
-ansible-galaxy install devops-toolbox.selinux
+ansible-galaxy install devopstoolbox.selinux
 ```
 
 Requirements
@@ -60,7 +60,7 @@ Example Playbook
   tasks:
     - name: selinux is configured
       import_role:
-        name: devops-toolbox.selinux
+        name: devopstoolbox.selinux
       vars:
         selinux_packages_state: present
         selinux_remove_packages: true
@@ -89,4 +89,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)
